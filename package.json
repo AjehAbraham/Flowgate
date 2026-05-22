@@ -1,0 +1,32 @@
+{
+  "name": "flowgate",
+  "version": "1.0.0",
+  "description": "Modern payment gateway",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjehAbraham/Flowgate/issues"
+  },
+  "homepage": "https://github.com/AjehAbraham/Flowgate#readme",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "ioredis": "^5.10.1",
+    "pg": "^8.21.0",
+    "redis": "^5.12.1"
+  }
+}
