@@ -21,12 +21,20 @@
   "homepage": "https://github.com/AjehAbraham/Flowgate#readme",
   "dependencies": {
     "axios": "^1.16.1",
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.77.0",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-rate-limit": "^8.5.2",
+    "express-router": "^0.0.1",
     "ioredis": "^5.10.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
     "pg": "^8.21.0",
-    "redis": "^5.12.1"
+    "redis": "^5.12.1",
+    "socket.io": "^4.8.3"
   }
 }
